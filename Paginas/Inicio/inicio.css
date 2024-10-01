@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-image{
+    width: 100%;
+}
+
+.content{
+    margin-top: 50px;
+}
+
+.content__perfil{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil__image{
+    width: 50%;
+}
+
+.perfil__image-image{
+    width: 100%;
+}
+
+.perfil__description{
+    width: 40%;
+    border: 1px solid gray;
+    padding: 3%;
+    box-shadow: 1px 2px 5px 1px gray;
+}
+
+.perfil__description-button{
+    background-color: aqua;
+    width: 50%;
+    margin: 30px 0 0;
+    height: 30px;
+    cursor: pointer;
+}

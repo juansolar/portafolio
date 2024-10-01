@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__title">
+            <h1 class="header__title-text">Juan Solarte</h1>
+        </div>
+        <div class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <button data-target="principal" class="header__nav-button">Inicio</button>
+                </li>
+                <li class="header__nav-item">
+                    <button data-target="perfil" class="header__nav-button">Perfil</button>
+                </li>
+                <li class="header__nav-item">
+                    <button data-target="education" class="header__nav-button">Educación</button>
+                </li>
+                <li class="header__nav-item">
+                    <button data-target="experience" class="header__nav-button">Experiencia</button>
+                </li>
+                <li class="header__nav-item">
+                    <button data-target="contact" class="header__nav-button">Contacto</button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main">    
+        <iframe class="main-view" id="principal" src="Paginas/Inicio/inicio.html" frameborder="0"></iframe>
+        <iframe class="main-view" id="perfil" src="Paginas/Perfil/perfil.html" frameborder="0"></iframe>
+        <iframe class="main-view" id="education" src="Paginas/Estudios/estudios.html" frameborder="0"></iframe>
+        <iframe class="main-view" id="experience" src="Paginas/Experiencia/experiencia.html" frameborder="0"></iframe>
+        <iframe class="main-view" id="contact" src="Paginas/Contacto/contacto.html" frameborder="0"></iframe>
+    </main>
+
+    <footer class="footer">
+        By - Juan Camilo Solarte Orozco
+    </footer>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
