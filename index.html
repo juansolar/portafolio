@@ -14,10 +14,10 @@
         <div class="header__nav">
             <ul class="header__nav-list">
                 <li class="header__nav-item">
-                    <button data-target="principal" class="header__nav-button">Inicio</button>
+                    <a href="#header"><button data-target="principal" class="header__nav-button">Inicio</button></a>
                 </li>
                 <li class="header__nav-item">
-                    <button data-target="perfil" class="header__nav-button">Perfil</button>
+                    <a href="#perfil"><button data-target="perfil" class="header__nav-button">Perfil</button></a>
                 </li>
                 <li class="header__nav-item">
                     <button data-target="education" class="header__nav-button">Educación</button>
@@ -31,20 +31,72 @@
             </ul>
         </div>
     </header>
+    
+    <main class="main">
+        <!-- Presentación del portafolio -->
+        <div class="main__presentation" id="header">
+            <img class="main__presentation-image" src="../../Elementos/imagenes/Banco_España_inicio.jpg" alt="Fondo principal - visita banco de españa en madrid">
+            <h1 class="main__presentation-title">Juan Camilo Solarte Orozco</h1>
+            <p class="main__presentation-description">Ingeniero de sistemas</p>
+        </div>
 
-    <main class="main">    
-        <iframe class="main-view" id="principal" src="Paginas/Inicio/inicio.html" frameborder="0"></iframe>
-        <iframe class="main-view" id="perfil" src="Paginas/Perfil/perfil.html" frameborder="0"></iframe>
-        <iframe class="main-view" id="education" src="Paginas/Estudios/estudios.html" frameborder="0"></iframe>
-        <iframe class="main-view" id="experience" src="Paginas/Experiencia/experiencia.html" frameborder="0"></iframe>
-        <iframe class="main-view" id="contact" src="Paginas/Contacto/contacto.html" frameborder="0"></iframe>
+        <!-- Quien soy -->
+        <div class="content__perfil" id="perfil">
+            <div class="perfil__image">
+                <img class="perfil__image-image" src="../../Elementos/imagenes/principal_perfil.JPEG" alt="imagen perfil graduación">
+            </div>
+            <div class="perfil__description">
+                <p class="perfil__description-text">
+                    Profesional altamente comprometido con la gestión, diseño, desarrollo y mejora de software, tanto en ámbitos 
+                    investigativos como informativos. Apasionado por el desarrollo de interfaces de usuario web (front-end), con 
+                    conocimientos en frameworks y lenguajes de programación. Competente en lógicas de programación, creando 
+                    soluciones eficientes y escalables en desarrollos back-end y aplicaciones de escritorio. Poseo sólidos 
+                    conocimientos en bases de datos, especialmente Oracle SQL y MySQL, con experiencia destacada en el proyecto 
+                    Asofondos con Heinsohn Business Technology, gestionando las bases de datos de pensiones en Colombia. 
+                    Cuento con fuertes habilidades en toma de decisiones, trabajo en equipo, responsabilidad y sentido de pertenencia.
+                </p>
+            </div>
+        </div>
+
+        <!-- Educación -->
+         <div class="content__education" id="education">
+            <div class="education__titles">
+                <div class="education__title education__title--primary">
+                    <img class="education__title-image" src="" alt="">
+                    <!-- <a href="https://www.flaticon.es/iconos-gratis/adolescente" title="adolescente iconos">Adolescente iconos creados por Freepik - Flaticon</a> -->
+                    <h3 class="education__title-title"></h3>
+                    <p class="education__title-text"></p>
+                </div>
+                <div class="education__title education__title--secundary">
+                    <img class="education__title-image" src="" alt="">
+                    <!-- <a href="https://www.flaticon.es/iconos-gratis/adolescente" title="adolescente iconos">Adolescente iconos creados por Freepik - Flaticon</a> -->
+                    <h3 class="education__title-title"></h3>
+                    <p class="education__title-text"></p>
+                </div>
+                <div class="education__title education__title--professional">
+                    <img class="education__title-image" src="" alt="">
+                    <!-- <a href="https://www.flaticon.es/iconos-gratis/titulo-universitario" title="titulo universitario iconos">Titulo universitario iconos creados por winnievinzence - Flaticon</a> -->
+                    <h3 class="education__title-title"></h3>
+                    <p class="education__title-text"></p>
+                </div>
+            </div>
+            <div class="education__certifications">
+
+            </div>
+            <div class="education__knowledge">
+
+            </div>
+         </div>
+        <!-- Experiencia -->
+         <!-- Contacto -->
+
     </main>
 
     <footer class="footer">
         By - Juan Camilo Solarte Orozco
     </footer>
 
-    <script src="index.js"></script>
+    <!-- <script src="index.js"></script> -->
 
 </body>
 </html>
