@@ -210,3 +210,55 @@
     align-items: center;
     margin: 20px;
 }
+
+.education__knowledge{
+    margin: 0 30%;
+    text-align: center;
+}
+
+.education__knowledge-title{
+    padding-bottom: 5%;
+}
+
+.education__knowledge-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 40%;
+}
+
+.education__knowledge-item{
+    width: 50%;
+    justify-self: center;
+}
+
+.education__knowledge-imagen{
+    width: 100%;
+}
+
+.education__experience{
+    margin: 0 5%;
+}
+
+.education__experience-table{
+    border: 1px solid indigo;
+}
+
+.education__experience-title{
+    padding: 1% 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: aqua;
+    color: white;
+    table-layout: fixed;
+}
+
+.education__experience-description{
+    font-size: 1vw;
+    border-bottom: 1px solid aqua;
+    border-right: 1px solid aqua;
+    padding: 1%;
+}
+
+.education__experience-description:nth-child(5){
+    border-right: none;
+}
